@@ -1,0 +1,3 @@
+# At the bottom of ~/.bashrc
+pgrep -f auto_sync_daemon.py > /dev/null || nohup python3 /home/username/auto_sync_daemon.py > /home/username/sync_log.txt 2>&1 &
+
