@@ -1,7 +1,7 @@
 import time
 import urllib.request
 
-URL = "https://raw.githubusercontent.com/rottentomatochesecake/dsa/main/file.txt"
+URL = "https://cdn.jsdelivr.net/gh/rottentomatochesecake/dsa@main/file.txt"
 DEST_FILE = "/home/YOUR_USERNAME/sync_log.txt"  # <-- Change this!
 
 def is_connected():
